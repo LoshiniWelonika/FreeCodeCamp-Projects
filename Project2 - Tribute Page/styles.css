@@ -1,0 +1,79 @@
+*{
+    box-sizing:border-box;
+    font-family:Verdana, sans-serif;
+    color:rgb(53, 48, 48);
+    font-size:14px;
+    }
+    
+    main{
+      background-color:rgb(236, 231, 231);
+      margin:10px 1px;
+    }
+    
+    #image, #img-caption{
+      width:80%;
+      max-width:100%;
+      height:auto;
+      max-height:80%;
+      display:block;
+      margin:0 auto;
+    }
+    
+    #title,.description{
+      text-align:center;
+    }
+    
+    #title{
+      font-size:36px;
+      padding-top:40px;
+    }
+    
+    #img-div{
+      background-color:white;
+      padding:20px 0;
+      margin:20px 10px;
+    }
+    
+    #img-caption{
+      text-align:center;
+      padding:10px;
+    }
+    
+    .bold{
+      font-weight:bold; 
+    }
+    
+    .phase{
+      margin-bottom:15px;
+    }
+    
+    #tribute-info{
+      width:50%;
+      margin:0 auto;
+      
+    }
+    
+    .italic{
+      font-style:italic;
+    }
+    
+    h3{
+      text-align:center;
+      font-size:18px;
+    }
+    
+    .info-list{
+      padding:15px 0;
+    }
+    
+    #tribute-link{
+      font-size:18px;
+      color:rgba(0, 0, 255, 0.486);
+    }
+    
+    
+    
+    
+    
+    
+    

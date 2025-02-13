@@ -1,0 +1,57 @@
+body{
+    font-family:sans-serif;
+    background-color:rgb(81, 110, 242);
+    color:white;
+  }
+  
+  header{
+    display:border-box;
+    margin:40px;
+    text-align:center;
+  }
+  
+  form{
+    background-color:rgb(9, 21, 76);
+    padding:1.5rem; 
+    max-width:50%;
+    margin:0 auto;
+  }
+  
+  label{
+    display:block;
+    margin-bottom:5px;
+  }
+  
+  input,textarea,select{
+    margin:10px 0 0 0 0;
+    width:100%;
+    min-height:21px;
+  }
+  
+  .inline{
+    width:unset;
+    vertical-align:middle;
+     margin: 0 0.5em 0 0;
+  }
+  
+  .small{
+    font-size:14px;
+  }
+  
+  div{
+    margin-bottom:25px;
+  }
+  
+  p{
+    margin-bottom:10px;
+  }
+  
+  .section-one input{
+    margin-top:10px;
+  }
+  
+  input[type="Submit"]{
+    background-color:green;
+    font-size:15px;
+    color:white;
+  }
