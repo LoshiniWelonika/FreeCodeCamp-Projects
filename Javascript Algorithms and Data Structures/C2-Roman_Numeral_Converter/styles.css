@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    background-color: #0b0b31;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Poppins;
+    letter-spacing: 1px;
+  }
+
+  #container{
+    width: 30vw;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo{
+    width: 50%;
+  }
+
+  h1{
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 3rem;
+  }
+
+
+  
+
+  
