@@ -1,6 +1,6 @@
 body{
     box-sizing: border-box;
-    background-color: #0b0b31;
+    background-color: #1a1a3e;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,6 +21,7 @@ body{
 
   #logo{
     width: 50%;
+    margin-bottom: 20px;
   }
 
   h1{
@@ -30,7 +31,70 @@ body{
     line-height: 3rem;
   }
 
+  .box{
+    width: 100%;
+    border: 1px solid white;
+    background-color: rgba(237, 233, 233, 0.162);
+    padding: 30px 0;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 1.5rem;
+  }
 
+  #number{
+    width: 75%;
+    background-color: #020521;
+    color: white;
+    border-color: white;
+    font-size: 2.5rem;
+    padding-left: 10px;
+  }
+
+  #number:focus{
+    border:2px solid aqua;
+  }
+
+  #output{
+    display: none;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 400;
+  }
+
+  .invalid{
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 400;
+    background-color: rgba(252, 139, 139, 0.871);
+    color: #a50303;
+    border: 1px solid #a50303;
+  }
+
+  #convert-btn{
+    width: 75%;
+    background: linear-gradient(180deg, #f1ae04, #edba04);
+    color: black;
+    border-color: white;
+    font-size: 22px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 1000px) {
+    #container {
+      width: 30rem;
+    }
+  }
+  
   
 
   
