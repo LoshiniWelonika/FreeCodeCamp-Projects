@@ -10,7 +10,7 @@ body{
     letter-spacing: 1px;
   }
 
-  #container{
+  .container{
     width: 30vw;
     margin-top: 50px;
     display: flex;
